@@ -3,6 +3,11 @@
 	margin: 0px 0px;
 	font-family: poppins
 	  }
+	  @fon-face{
+	  	font-family: "poppins";
+	  	src: url(../Poppins/Poppins-Medium.ttf)
+	  	;
+	  }
 
 :root{
 	--homecolor:#1e4592;
@@ -23,7 +28,8 @@
 
 }
 .logo{
-	width: 118px
+	width: 118px;
+	margin-left: 25px
 }
 .nav_list{
 	list-style: none;
